@@ -1,0 +1,19 @@
+.image-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.image-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.image-slider img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
